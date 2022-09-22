@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de QR</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div id="contenedorQR" class="contenedorQR">
+
+            <form action="" id="formulario" class="formulario">
+                <input type="text" id="link" placeholder="Escribe la URL">
+                <button class="btn">Generar QR</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- Explicación: https://www.youtube.com/watch?v=xWx9_GVHa_k  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
